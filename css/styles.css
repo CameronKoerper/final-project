@@ -1,0 +1,19 @@
+
+
+
+
+nav{
+    box-sizing: border-box;
+    justify-content: space-around;
+    display: inline-block;
+    text-align: center;
+    border-bottom: none;
+}
+
+nav>a{
+    list-style:none;
+    font-weight: bold;
+}
+
+
+
