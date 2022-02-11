@@ -16,11 +16,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    
     font-family: 'Roboto Condensed', sans-serif;
-    background-color:#e495c3;
+    background:#d86c70;
     
     font-size: 3vh;
     font-weight:bold;
+    border-style:double;
+    border-width: .75vh;
 }
 
 nav>h1{
@@ -53,7 +56,7 @@ nav>a{
    
     border-style:outset;
     border-width: 6px;
-    border-color: #e495c3;
+    border-color:#d86c70;
 }
 
 .text{
@@ -62,13 +65,17 @@ nav>a{
     margin: 2vh;
     justify-content: space-around;
     
-    font-size: 4vh;
+    font-size: 6vh;
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align:left;
+    word-spacing: 1.5vh;
+
+    
     
     border-style: inset;
     border-width: 6px;
-    border-color: #e495c3;
+    border-color:#d86c70;
     }
 
 
