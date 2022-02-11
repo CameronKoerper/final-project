@@ -1,19 +1,45 @@
 
 
-
+header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-display:flex;
+    color:rgb(255, 255, 255);
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bold;
+}
 
 nav{
-    box-sizing: border-box;
+    display: flex;
     justify-content: space-around;
-    display: inline-block;
-    text-align: center;
-    border-bottom: none;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:#e495c3;
+    font-size: 2.5vh;
+    font-weight:bold;
+}
+
+nav>h1{
+    font-size: 60px;
+    font-weight:bold;
+    justify-content: space-around;
+    min-height: 5vh;
+    text-shadow: 1.5px 1.5px black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav>a{
     list-style:none;
     font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px black;
+    color: white;
 }
+
 
 
 
