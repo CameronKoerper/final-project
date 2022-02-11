@@ -18,14 +18,15 @@ nav{
     min-height: 8vh;
     
     background:#d86c70;
-    background-color: ;
-    background-blend-mode: color-burn;
+    background-image: url(https://images.hdqwalls.com/download/lines-abstract-zt-1920x1080.jpg);
+    background-blend-mode: saturation;
     
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 3vh;
     font-weight:bold;
-    border-style:double;
-    border-width: .75vh;
+    border-style:groove;
+    border-width: 15px;
+    border-color: #d86c70;
     
 }
 
@@ -36,7 +37,6 @@ nav>h1{
     
     justify-content: space-around;
     min-height: 5vh;
-    text-shadow: 2.5px 2.5px black;
     color: white;
 }
 
@@ -45,12 +45,12 @@ nav>ul>li{
     list-style-type:none;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 1.5px 1.5px black;
     color: white;
 }
 
 .media{
     display:flex;
+    
 }
 
 .vid{
@@ -58,9 +58,13 @@ nav>ul>li{
     justify-content: space-around;
     margin: 2vh;
    
-    border-style:outset;
-    border-width: 6px;
+    border-style:groove;
+    border-width: 15px;
     border-color:#d86c70;
+
+    background-image: url(https://images.hdqwalls.com/download/lines-abstract-zt-1920x1080.jpg);
+    background-color: #d86c70;
+    background-blend-mode: saturation;
 }
 
 .text{
@@ -77,9 +81,12 @@ nav>ul>li{
 
     
     
-    border-style: inset;
-    border-width: 6px;
+    border-style: groove;
+    border-width: 15px;
     border-color:#d86c70;
+    background-color: #d86c70;
+    background-image: url(https://images.hdqwalls.com/download/lines-abstract-zt-1920x1080.jpg);
+    background-blend-mode:saturation;
     color: white;
     }
 
