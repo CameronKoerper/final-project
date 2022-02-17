@@ -58,6 +58,7 @@ nav>h1{
 /*footer stuff*/
 .bottom-nav{
     font-family: 'Cinzel', serif;
+    background: linear-gradient(90deg, rgb(160, 119, 24) 0%, rgb(169, 82, 2) 27%, rgba(184,119,0,1) 100%);
 }
 
 .bottom{
@@ -74,7 +75,6 @@ nav>h1{
 .bottom-links{
     display: flex;
     justify-content: space-around;
-    background:#ff8c00;
     width: 40%;
     
     font-size: 40px;
@@ -207,7 +207,7 @@ iframe{
 
 .about-section>a>img:hover{
     border: solid 2px white;
-    transform: scale(1.25);
+    transform: scale();
 }
 
 .about{
