@@ -34,6 +34,8 @@ nav>h1{
             border: solid 4px white;
             text-transform: uppercase;
             font-size: 30px;
+            border-top: none;
+            border-bottom: none;
 }
 
 .links li{
@@ -177,6 +179,10 @@ iframe{
                     outline-width: 10px;
 }
 
+.about-section>a>img:hover{
+    border: solid 2px white;
+}
+
 .about{
     color: #f7f3e9;
     
@@ -254,4 +260,16 @@ iframe{
 
 .fa-brands:hover{
     border: groove 4px white;
+    border-top: none;
+    border-bottom: none;
 }
+
+.Active {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
