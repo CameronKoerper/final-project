@@ -207,6 +207,7 @@ iframe{
 
 .about-section>a>img:hover{
     border: solid 2px white;
+    transform: scale(1.25);
 }
 
 .about{
@@ -258,10 +259,13 @@ iframe{
         outline:#ff8c00;
         outline-style: groove;
         outline-width: 10px;
+        
+        backdrop-filter: blur(15px);
+        opacity: 0.8;
 }
 
 .interest>img:hover{
-    transform: scale(1.25);
+    opacity: 1;
 }
 
 .btn{
