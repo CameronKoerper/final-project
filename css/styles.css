@@ -207,7 +207,7 @@ iframe{
 
 .about-section>a>img:hover{
     border: solid 2px white;
-    transform: scale();
+    transform: scale(1.25);
 }
 
 .about{
