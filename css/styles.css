@@ -10,6 +10,8 @@ nav{
     min-height: 8vh;
     font-family: 'Roboto Condensed', sans-serif;
     background: linear-gradient(90deg, rgba(254,177,2,1) 0%, rgba(228,138,51,1) 27%, rgba(184,119,0,1) 100%);
+    
+    margin-left: 30px;
 }
 
 nav>h1{
@@ -26,7 +28,12 @@ nav>h1{
     font-size: 15px;
     justify-content: space-around;
     background:#ff8c00;
-    width: 40%;
+    width: 10%;
+}
+
+.links:hover{
+            border: solid 2px white;
+            font-size: 30px;
 }
 
 .links li{
@@ -42,12 +49,6 @@ nav>h1{
     font-weight: bold;
 }
 
-
-.hero-img img {
-            height: 100%;
-            width: 100%;
-            ;
-}
 
 
 .bottom-nav{
@@ -214,13 +215,44 @@ iframe{
     outline-style: groove;
 }
 
-.interest>a>img{
-        margin-left: 100px;
+.interest>img{
+        margin-left: 38%;
         position: absolute;
-        top: 12%;
+        top: 35%;
         
         outline:#ff8c00;
         outline-style: groove;
         outline-width: 10px;
+}
 
+.interest>img:hover{
+    border: solid 2px white;
+}
+
+.btn{
+    color: white;
+    background-color:#ff8c00;
+    position: absolute;
+    width: 10%;
+    padding: 12px 24px;
+    
+    margin-left: 46%;
+    margin-top: 19.5%;
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+
+
+.fa-brands:hover{
+    border: groove 4px white;
 }
