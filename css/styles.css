@@ -69,6 +69,8 @@ nav>h1{
     text-transform: uppercase;
 }
 
+
+
 .bottom-links{
     display: flex;
     justify-content: space-around;
@@ -164,6 +166,10 @@ nav>h1{
     left: 10px;
     top: 10px;
 }
+
+#Logo:hover{
+    transform: scale(1.3);
+}
 /*logo*/
 
 /*map settings*/
@@ -255,7 +261,7 @@ iframe{
 }
 
 .interest>img:hover{
-    border: solid 2px white;
+    transform: scale(1.25);
 }
 
 .btn{
@@ -278,6 +284,7 @@ iframe{
 
 .btn:hover{
     background-color: black;
+    transform: scale(1.25);
 }
 
 /*Hero image redefined*/
@@ -288,6 +295,7 @@ iframe{
     border: groove 4px white;
     border-top: none;
     border-bottom: none;
+    transform: scale(1.25);
 }
 
 .Active {
