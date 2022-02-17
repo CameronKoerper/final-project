@@ -111,6 +111,13 @@ nav>h1{
     text-decoration: none;
     margin-left: 55px;
     margin-top: 40px;
+
+    background-color: #e4d4d4;
+    outline-color: #ff8c00;
+    outline-style: groove;
+    outline-width: 3px;
+    
+    max-width: 30%;
  }   
 
 
@@ -205,4 +212,15 @@ iframe{
     outline: auto;
     outline-color: #c44949;
     outline-style: groove;
+}
+
+.interest>a>img{
+        margin-left: 100px;
+        position: absolute;
+        top: 12%;
+        
+        outline:#ff8c00;
+        outline-style: groove;
+        outline-width: 10px;
+
 }
