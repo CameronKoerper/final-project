@@ -2,7 +2,9 @@
     padding: 0px;
     box-sizing: border-box;
   }
-  
+/*universal traits*/
+
+/*navbar stuff*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -50,8 +52,10 @@ nav>h1{
     font-weight: bold;
 }
 
+/*navbar stuff*/
 
 
+/*footer stuff*/
 .bottom-nav{
     font-family: 'Cinzel', serif;
 }
@@ -102,6 +106,19 @@ nav>h1{
     margin-top: 40px;
  }   
 
+ 
+ footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+
+ /*footer stuff*/
+
+ /*contact page lettering*/
+
  p{
     color: #eb9155;
     
@@ -122,7 +139,10 @@ nav>h1{
     max-width: 30%;
  }   
 
+/*contact page lettering*/
 
+
+/*footer positioning*/
 
 #page-container {
     position: relative;
@@ -133,14 +153,10 @@ nav>h1{
     padding-bottom: 2.5rem;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
-}
+/*footer positioning*/
 
 
+/*logo*/
 #Logo{
     height: 6.5vh;
     width: 7vh;
@@ -148,7 +164,9 @@ footer{
     left: 10px;
     top: 10px;
 }
+/*logo*/
 
+/*map settings*/
 iframe{
     outline: auto;
     outline-color: #ff8c00;
@@ -156,8 +174,10 @@ iframe{
     margin-left: 55px;
     margin-top: 40px;
 }
+/*map settings*/
 
 
+/*about picture and page layout*/
 .about-section{
     color: #f7f3e9;
     
@@ -176,7 +196,7 @@ iframe{
                     
                     outline: #ff8c00;
                     outline-style: groove;
-                    outline-width: 10px;
+                    outline-width: 5px;
 }
 
 .about-section>a>img:hover{
@@ -220,6 +240,10 @@ iframe{
     outline-style: groove;
 }
 
+/*about picture and page layout*/
+
+
+/*Hero image redefined*/
 .interest>img{
         margin-left: 38%;
         position: absolute;
@@ -256,8 +280,10 @@ iframe{
     background-color: black;
 }
 
+/*Hero image redefined*/
 
 
+/*Style changes to clickable objects and putting background video in right place*/
 .fa-brands:hover{
     border: groove 4px white;
     border-top: none;
@@ -272,4 +298,35 @@ iframe{
     min-height: 100%;
     z-index: -1;
   }
+  /*Style changes to clickable objects and putting background video in right place*/
   
+  
+  /*Reminder fine print*/
+  .Fine {
+    color: #f7f3e9;
+    position: absolute;
+    margin-left: 38vh;
+    
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px black;
+    
+    outline: none;
+    background:none;
+  }
+/*Reminder fine print*/
+
+
+/*Picture on contact page*/
+.contact{
+            position:absolute;
+            top: 76%;
+            left: 34%;
+  }
+
+
+.Fine:hover{
+            text-transform: uppercase;
+            font-size: 20px;
+}
