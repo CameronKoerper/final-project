@@ -3,13 +3,6 @@
     box-sizing: border-box;
   }
   
-
-
-
-
-
-
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -19,10 +12,12 @@ nav{
     background: linear-gradient(90deg, rgba(254,177,2,1) 0%, rgba(228,138,51,1) 27%, rgba(184,119,0,1) 100%);
 }
 
-.logo{color: white;
+nav>h1{color: white;
     text-transform: uppercase;
     letter-spacing: 15px;
-    font-size: 30px;}
+    font-size: 30px;
+}
+
 
 .links{
     display: flex;
@@ -123,3 +118,16 @@ footer{
     height: 2.5rem; 
 }
 
+
+#Logo{
+    height: 6.5vh;
+    width: 7vh;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+iframe{
+    outline: auto;
+    outline-color: #ff8c00;
+}
