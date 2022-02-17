@@ -42,26 +42,9 @@ nav>h1{color: white;
 
 
 .hero-img img {
-            height: 95%;
+            height: 100%;
             width: 100%;
-            position: relative;
             ;
-}
-
-article{
-    border: #ff8c00;
-    border-style: groove;
-    position: relative;
-}
-
-.img-links>a>img{
-position:relative;
-bottom:1125px;
-left: 100px;
-
-border: #ff8c00;
-border-style: groove;
-border-width: 10px;
 }
 
 
@@ -125,7 +108,7 @@ border-width: 10px;
 }
 
 #content-wrap{
-    padding-bottom: 2.5rem
+    padding-bottom: 2.5rem;
 }
 
 footer{
@@ -147,4 +130,26 @@ footer{
 iframe{
     outline: auto;
     outline-color: #ff8c00;
+}
+
+
+.about-section{
+    color: #f7f3e9;
+    
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.about-section>img{
+                    margin-top: 15px;
+                    
+                    outline: #ff8c00;
+                    outline-style: groove;
+                    outline-width: 10px;
 }
