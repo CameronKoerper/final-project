@@ -93,20 +93,6 @@ nav>h1{
     font-weight: bold;
 }
 
- .attention{
-    color: #c44949;
-    
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: bold;
-   
-    text-transform: uppercase;
-    text-decoration: none;
-    text-shadow: 2px 2px rgb(90, 85, 85);
-    text-decoration:underline;
-    margin-left: 55px;
-    margin-top: 40px;
- }   
 
  
  footer{
@@ -139,7 +125,25 @@ nav>h1{
     outline-width: 3px;
     
     max-width: 30%;
- }   
+ }
+
+
+.attention{
+        color: #c44949;
+        
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: bold;
+       
+        text-transform: uppercase;
+        text-decoration: none;
+        text-shadow: 2px 2px rgb(90, 85, 85);
+        text-decoration:underline;
+        margin-left: 55px;
+        margin-top: 40px;
+     
+}   
+
 
 /*contact page lettering*/
 
